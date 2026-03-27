@@ -6,7 +6,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-from backend.database.session import Database
+from database.session import Database
 from models.tables import TaskList
 from typing import List
 
